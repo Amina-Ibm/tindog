@@ -1,0 +1,162 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.title-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+/* sections combined */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+
+}
+button {
+  margin: 10px;
+}
+
+.navbar {
+  padding-bottom: 4.5em;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', Serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.container {
+  padding: 0 0;
+}
+#title {
+  text-align: left;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.image-position {
+  position: relative;
+  z-index: 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  padding-top: 0;
+  margin-bottom: -200px;
+  position: relative;
+  z-index: -1;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-text{
+  font-size: 1.5rem;
+  padding: 5%;
+}
+
+
+#features p {
+  color: #8f8f8f;
+}
+
+.fa-solid:hover {
+  color: #ff4c68 !important;
+}
+
+#carousel-testimonial {
+  background-color: #ef8172;
+
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 18%;
+  margin-right: 10px;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 70px;
+}
+
+.column-price {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5
+}
+
+@media (max-width: 1105px) {
+  .row {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to action */
+
+
+.cta-text {
+  font-size: 3rem;
+}
+
+/* footer (finlly the end!) */
+#footer {
+  margin: 6rem;
+}
+
+.icons {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
